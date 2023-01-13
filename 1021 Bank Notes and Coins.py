@@ -32,6 +32,7 @@ valor %= 0.10
 
 moedas_5 = valor//0.05
 valor %= 0.05
+valor += 0.00001
 
 moedas_1 = valor//0.01
 valor %= 0.01
