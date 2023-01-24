@@ -4,10 +4,11 @@ salary = float(input())
 def salary_increase(salary, percentual):
     new_salary = salary+(salary*(percentual))
     readjustment = new_salary-salary
+    percentual *= 100
 
     print(f"Novo salario: {new_salary:.2f}")
     print(f"Reajuste ganho: {readjustment:.2f}")
-    print(f"Em percentual = {percentual*100:.0f} %")
+    print(f"Em percentual = {percentual:.0f} %")
 
 
 if salary <= 400:
