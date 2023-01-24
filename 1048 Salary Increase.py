@@ -8,7 +8,7 @@ def salary_increase(salary, percentual):
 
     print(f"Novo salario: {new_salary:.2f}")
     print(f"Reajuste ganho: {readjustment:.2f}")
-    print(f"Em percentual = {percentual:.0f} %")
+    print(f"Em percentual: {percentual:.0f} %")
 
 
 if salary <= 400:
